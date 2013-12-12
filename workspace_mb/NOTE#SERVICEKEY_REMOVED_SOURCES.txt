@@ -1,0 +1,8 @@
+You need to insert your own service key given by Seoul Bus OpenAPI.
+
+Try to get on this site:
+  https://www.data.go.kr/#/L21haW4=
+
+In this Java source, you should use service key encoded by utf-8.
+Java command example,
+   URLEncoder.encode(your service key, "UTF-8");
